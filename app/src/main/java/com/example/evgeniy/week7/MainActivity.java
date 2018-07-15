@@ -1,8 +1,11 @@
 package com.example.evgeniy.week7;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.evgeniy.week7.t1.NavigationActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showT1() {
-
+        startActivity(new Intent(this, NavigationActivity.class));
     }
 
     private void showT2() {
