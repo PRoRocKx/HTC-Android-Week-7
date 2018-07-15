@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            app:actionLayout="@layout/nav_edit_text"
+            android:title="" />
+        <item
+            android:id="@+id/nav_gallery"
+            app:actionLayout="@layout/nav_spinner"
+            android:title="" />
+        <item
+            android:id="@+id/nav_slideshow"
+            app:actionLayout="@layout/nav_switch"
+            android:title="" />
+        <item
+            android:id="@+id/nav_manage"
+            app:actionLayout="@layout/nav_button"
+            android:title="" />
+    </group>
+
+</menu>

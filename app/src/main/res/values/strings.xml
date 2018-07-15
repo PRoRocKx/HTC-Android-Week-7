@@ -11,4 +11,23 @@
 
     <string name="title_activity_recycler_view">RecyclerViewActivity</string>
     <string name="down">Down</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="switch_text">Switch</string>
+    <string name="hello_blank_fragment">blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="fragment_not_found">Фрагмент не найден</string>
+    <string name="import1">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+
+
+    <array name="spinner_list">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </array>
 </resources>
