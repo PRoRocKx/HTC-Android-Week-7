@@ -15,13 +15,12 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.t2)
     Button t2;
 
-    private Unbinder unbinder;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        unbinder = ButterKnife.bind(this);
+
+        ButterKnife.bind(this);
 
         t1.setOnClickListener(view -> showT1());
         t2.setOnClickListener(view -> showT2());
@@ -35,12 +34,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (unbinder != null) {
-            unbinder.unbind();
-        }
-    }
 }
