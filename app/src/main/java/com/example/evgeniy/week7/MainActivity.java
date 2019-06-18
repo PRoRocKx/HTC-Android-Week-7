@@ -1,8 +1,11 @@
 package com.example.evgeniy.week7;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.evgeniy.week7.t2.RecyclerViewActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -31,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showT2() {
-
+        startActivity(new Intent(this, RecyclerViewActivity.class));
     }
 
 }
